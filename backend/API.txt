@@ -1,0 +1,19 @@
+LOGIN
+1. /user/login -> authenticate credentials
+2. /user/register -> add a new user
+
+USER
+3. /book/issue -> decrease the num of copies of that book by 1 and add it the the user's array
+4. /book/return -> increase the num of copies of that book by 1 and decrease the user's array
+5. /book/get_issued -> returns the list of books already issued by the user
+
+ADMIN
+6. /book/add -> add a book
+7. /book/delete -> delete a book
+8. /book/change_copies -> change number of copies of a book
+
+COMMON
+9.  /book/get_all -> return all book
+10. /book/find_by_title -> return books with given title
+11. /book/find_by_author -> return books with given author name
+12. /book/find_by_year -> return books with given year
